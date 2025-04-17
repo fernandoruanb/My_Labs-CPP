@@ -6,7 +6,7 @@
 /*   By: fruan-ba <fruan-ba@42sp.org.br>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/17 13:34:28 by fruan-ba          #+#    #+#             */
-/*   Updated: 2025/04/17 17:11:59 by fruan-ba         ###   ########.fr       */
+/*   Updated: 2025/04/17 17:19:02 by fruan-ba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,16 @@ Ponto& Ponto::operator=(const Ponto &other)
 		this->y = other.get_y();
 	}
 	return (*this);
+}
+
+void	Ponto::set_x(int x)
+{
+	this->x = x;
+}
+
+void	Ponto::set_y(int y)
+{
+	this->y = y;
 }
 
 int	Ponto::get_x(void) const

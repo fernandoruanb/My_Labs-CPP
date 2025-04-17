@@ -1,21 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.cpp                                           :+:      :+:    :+:   */
+/*   Retângulo.hpp                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fruan-ba <fruan-ba@42sp.org.br>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/17 15:03:46 by fruan-ba          #+#    #+#             */
-/*   Updated: 2025/04/17 17:19:40 by fruan-ba         ###   ########.fr       */
+/*   Created: 2025/04/17 17:52:34 by fruan-ba          #+#    #+#             */
+/*   Updated: 2025/04/17 18:33:28 by fruan-ba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Ponto.hpp"
+#ifndef RETÂNGULO_HPP
+# define RETÂNGULO_HPP
 
-int	main(void)
+class Retângulo
 {
-	Ponto firstExample(2, 3);
+	private:
+		int largura;
+		int altura;
+	public:
+		Retângulo(void);
+		~Retângulo(void);
+		Retângulo(
+};
 
-	firstExample.get_result(4, 6);
-	return (0);
-}
+#endif /* RETÂNGULO_HPP */
